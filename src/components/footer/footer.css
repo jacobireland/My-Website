@@ -1,0 +1,41 @@
+.mysite_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer_socials {
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    color:aliceblue;
+}
+
+.footer_linkedin,
+.footer_twitter,
+.footer_instagram {
+    padding: 0 1rem;
+}
+
+.footer_email {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.email_word,
+.email {
+    color:aliceblue;
+    font-size: 15px;
+    font-weight: 300;
+    padding-right: 7px;
+}
+
+@media screen and (max-width:550px) {
+    .mysite_footer {
+        margin: 0;
+    }
+}

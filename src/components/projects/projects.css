@@ -1,0 +1,180 @@
+.mysite_projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+.projects_name {
+    color:rgb(0, 0, 0);
+    font-family: var(--font-1);
+    font-weight: 900;
+    font-size: 40px;
+    padding-bottom: 4rem;
+}
+
+.projects_row1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 4rem;
+}
+
+.spotify_project {
+    position: relative;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25rem;
+}
+
+.spotify_img {
+    position: relative;
+    transition: 0.5s;
+}
+
+.spotify_img:hover {
+    transform:scale(1.1);
+    z-index: 3;
+}
+
+.spotify_name {
+    text-align: center;
+    font-family: var(--font-1);
+    font-size: 30px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.spotify_blurb {
+    text-align: center;
+    font-family: var(--font-1);
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 20rem;
+
+}
+
+.webserver_project {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25rem;
+}
+
+.webserver_img {
+    position: relative;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.webserver_private {
+    position: absolute;
+    align-items: center;
+    font-family: var(--font-1);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 2rem 2rem;
+}
+
+.webserver_img:hover {
+    transform:scale(1.1);
+    z-index: 3;
+    opacity: 0;
+}
+
+.webserver_name {
+    text-align: center;
+    font-family: var(--font-1);
+    font-size: 30px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.5rem;
+}
+
+.webserver_blurb {
+    text-align: center;
+    font-family: var(--font-1);
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 20rem;
+
+}
+
+.popup {
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+}
+
+.projects_row2 {
+    position: relative;
+    display: flex;
+    align-self: center;
+    align-content: center;
+    flex-direction: row;
+}
+.website_project {
+    position: relative;
+    display: flex;
+    left: 2.2rem;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25rem;
+}
+
+.website_img {
+    position: relative;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.website_img:hover {
+    transform:scale(1.1);
+    z-index: 3;
+}
+
+.website_name {
+    text-align: center;
+    font-family: var(--font-1);
+    font-size: 30px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.5rem;
+}
+
+.website_blurb {
+    text-align: center;
+    font-family: var(--font-1);
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 20rem;
+
+}
+
+@media screen and (max-width: 1050px) {
+    .projects_row1 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .spotify_project {
+        position: relative;
+        left: 0;
+        padding-bottom: 4rem;
+    }
+
+    .website_project {
+        position: relative;
+        left: 0;
+        padding-top: 4rem;
+    }
+}

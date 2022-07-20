@@ -1,0 +1,116 @@
+.mysite_about-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mysite_about {
+    display: flex;
+    padding-top: 6rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    flex-direction: row;
+    padding-bottom: 3rem;
+}
+
+.mysite_about-info {
+    position: relative;
+    left: 2rem;
+    padding-left: 2rem;
+
+}
+
+.name {
+    font-family: var(--font-1);
+    font-size: 35px;
+    padding-bottom: 8px;
+}
+
+.details {
+    font-family: var(--font-1);
+    font-weight: 400;
+    font-size: 25px;
+    padding-bottom: 28px;
+}
+
+.introduction,
+.introduction2 {
+    font-family: var(--font-1);
+    font-size: 18px;
+    padding-bottom: 7px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.interests {
+    font-family: var(--font-1);
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.mysite_about-socials {
+    position: relative;
+    padding: 0 4rem;
+    padding-bottom: 3rem;
+}
+
+.linkedin,
+.twitter,
+.instagram {
+    position: relative;
+    padding-top: 3rem;
+    padding: 1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+    .mysite_about {
+        padding-right: 1rem;
+    }
+    .mysite_flic {
+        position: relative;
+        right: 5rem;
+    }
+
+    .mysite_about-info {
+        position: relative;
+        padding: 0;
+        left: -3rem;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    
+    .mysite_about-page {
+        justify-content: center;
+        padding: 0 0 0 0
+    }
+    
+    .mysite_about {
+        flex-direction: column;
+        align-items: center;
+        padding: 7rem 0 0 0;
+        max-width: 20rem;
+    }
+
+    .mysite_flic {
+        position: relative;
+        left: 0.25rem;
+    }
+
+    .mysite_about-info {
+        position: relative;
+        align-items: center;
+        left: 0;
+        padding: 4rem 0 2.5rem 0;
+    }
+
+    .name {
+        text-align: center;
+        padding-bottom: 0.5rem;
+    }
+
+}

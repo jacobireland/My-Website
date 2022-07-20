@@ -1,0 +1,342 @@
+.mysite_skills {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 5rem;
+    flex-direction: column;
+}
+
+.skills {
+    position: relative;
+    color: rgba(255, 255, 255, 0.904);
+    font-size: 50px;
+    font-family: var(--font-1);
+    padding-bottom: 4rem;
+}
+
+.skills_row1 {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.python {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 21rem;
+    align-items: center;
+    bottom: 12px;
+}
+
+.py_logo {
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 100px;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.py_name {
+    position: relative;
+    color:rgba(255, 255, 255, 0.904);
+    font-family: var(--font-1);
+    font-size: 42px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.65rem;
+}
+
+.py_blurb {
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.708);
+    font-family: var(--font-1);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.clang{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 21rem;
+    align-items: center;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.c_logo {
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 100px;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.c_name {
+    position: relative;
+    color:rgba(255, 255, 255, 0.904);
+    font-family: var(--font-1);
+    font-size: 42px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.65rem;
+}
+
+.c_blurb {
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.708);
+    font-family: var(--font-1);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.java {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 21rem;
+    align-items: center;
+    bottom: 11px;
+}
+
+.java_logo {
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 100px;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.java_name {
+    position: relative;
+    color:rgba(255, 255, 255, 0.904);
+    font-family: var(--font-1);
+    font-size: 42px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.65rem;
+}
+
+.java_blurb {
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.708);
+    font-family: var(--font-1);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.skills_row2 {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding-top: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.react {
+    position: relative;
+    bottom: 2.05rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 21rem;
+    align-items: center;
+}
+
+.react_logo {
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 100px;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.react_name {
+    position: relative;
+    color:rgba(255, 255, 255, 0.904);
+    font-family: var(--font-1);
+    font-size: 35px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.65rem;
+}
+
+.react_blurb {
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.708);
+    font-family: var(--font-1);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.javascript {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 21rem;
+    align-items: center;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.js_logo {
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 100px;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.js_name {
+    position: relative;
+    color:rgba(255, 255, 255, 0.904);
+    font-family: var(--font-1);
+    font-size: 35px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.65rem;
+}
+
+.js_blurb {
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.708);
+    font-family: var(--font-1);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.api {
+    position: relative;
+    bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    max-width: 21rem;
+    align-items: center;
+}
+
+.api_logo {
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 100px;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.api_name {
+    position: relative;
+    color:rgba(255, 255, 255, 0.904);
+    font-family: var(--font-1);
+    font-size: 35px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.65rem;
+}
+
+.api_blurb {
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.708);
+    font-family: var(--font-1);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 1050px){
+    .py_logo {
+        position: relative;
+        right: 4rem;
+        left: 0;
+    }
+
+    .javascript {
+        align-self: center;
+        position: relative;
+        left: 3rem;
+        max-width: 20rem;
+    }
+
+    .api {
+        padding-right: 1rem;
+        padding-left: 1rem;
+        position: relative;
+        top: 0.5rem;
+        max-width: 20rem;
+    }
+
+    .react {
+        position: relative;
+        left: 0.2rem;
+        max-width: 20rem;
+    }
+}
+
+@media screen and (max-width: 935px){
+    .react {
+        max-width: 15rem;
+        position: relative;
+        left: -2rem;
+        top: -2.8rem;
+    }
+
+    .api {
+        max-width: 15rem;
+        position: relative;
+        top: 1rem;
+    }
+
+    .javascript {
+        max-width: 15rem;
+        position: relative;
+        left:0
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+
+    .skills_row1 {
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+
+    .py_logo {
+        position: relative;
+        left: 0;
+        right: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .python,
+    .java,
+    .clang {
+        max-width: 30rem;
+        position: relative;
+        left: 0;
+        right: 0;
+        padding: 0 0 4rem 0;
+    }
+
+    .skills_row2 {
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+
+    .react,
+    .javascript,
+    .api {
+        max-width: 30rem;
+        padding: 0 0 4rem 0;
+        left: 0;
+        right: 0;
+
+    }
+}
