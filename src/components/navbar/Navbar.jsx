@@ -1,20 +1,22 @@
-import React, {useState} from 'react'
+import React from 'react';
+import { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import './navbar.css' ;
+import './navbar.css';
+import resume from '../../assets/RESUME2022.pdf';
 
-let navbar = document.getElementById("navbar");
-let navPos = navbar.getBoundingClientRect().top;
+document.addEventListener('DOMContentLoaded', e => {
+  let navbar = document.getElementById("navbar");
+  let navPos = navbar.offsetTop;
 
-window.addEventListener("scroll", e => {
-  let scrollPos = window.scrollY;
-  if (scrollPos > navPos) {
-    navbar.classList.add('sticky');
-  } else {
-    navbar.classList.remove('sticky');
-  }
-});
-
-
+  window.addEventListener("scroll", e => {
+    let scrollPos = window.scrollY;
+    if (scrollPos > navPos) {
+      navbar.classList.add('sticky');
+    } else {
+      navbar.classList.remove('sticky');
+    }
+  });
+})
 
 const Menu = () => (
   <>
@@ -39,7 +41,7 @@ const Navbar = () => {
           <p><a href="#about">ABOUT</a></p>
           <p><a href="#skills">SKILLS</a></p>
           <p><a href="#projects">PROJECTS</a></p>
-          <p><a href="#blog">OTHER</a></p>
+          <p><a href={resume} target="_blank" rel="noreferrer" >RESUME</a></p>
         </div>
       </div>
       <div className="mysite_navbar-menu">
@@ -58,5 +60,6 @@ const Navbar = () => {
     </div>
   )
 }
+
 
 export default Navbar

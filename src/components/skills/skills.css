@@ -322,7 +322,10 @@
         position: relative;
         left: 0;
         right: 0;
+        top: 0;
+        bottom: 0;
         padding: 0 0 4rem 0;
+        margin: 0 0;
     }
 
     .skills_row2 {
@@ -337,6 +340,8 @@
         padding: 0 0 4rem 0;
         left: 0;
         right: 0;
-
+        top: 0;
+        bottom: 0;
+        margin: 0 0;
     }
 }
